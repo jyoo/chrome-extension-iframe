@@ -1,0 +1,52 @@
+{
+  "name": "Chrome Extension Iframe",
+  "version": "0.1",
+  "description": "Chrome extension template using iframe",
+  "permissions": [
+      "contextMenus",
+      "identity",
+      "identity.email",
+      "storage",
+      "tabs"
+  ],
+  "background": {
+      "scripts": [
+          "js/jquery-3.4.1.min.js",
+          "js/background.js"
+      ],
+      "persistent": false
+  },
+  "browser_action": {
+    "default_title": "CEI Toggle",
+    "default_icon": {
+      "16": "images/get_started16.png"
+    }
+  },
+
+  "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": [
+          "js/jquery-3.4.1.min.js",
+          "js/bootstrap.bundle.min.js",
+          "js/iframe.js",
+          "js/side.js"
+        ],
+        "css": [
+          "css/side.css"
+        ],
+        "run_at": "document_end"
+      }
+  ],
+  "web_accessible_resources": [
+    "view/*",
+    "js/iframe.js"
+  ],
+  "icons": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
