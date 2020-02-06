@@ -5,7 +5,10 @@ This repo contains files for a Chome Extension. I tried to build an extension th
 
 In fact, to show just a page, it was a bit hard for me as I needed to google several times, but could achieve it in the end. Using this repo, you would be able to save time to develop an awesome extension!
 
-### Key Point
+## Key point
 - You can download it and try it out on Google Chrome right away.
 - For UI, Bootstrap package is included
 - State, data storage and more will come later :)
+
+## How to use?
+Clone this repo, and open Google Chrome. Open Extensions under Windows, and Load Unpacked. Once installed, visit a random page and click the extension icon. The below is the screenshot once you click.
