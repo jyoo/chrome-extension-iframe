@@ -11,4 +11,4 @@ In fact, to show just a page, it was a bit hard for me as I needed to google sev
 - State, data storage and more will come later :)
 
 ## How to use?
-Clone this repo, and open Google Chrome. Open Extensions under Windows, and Load Unpacked. Once installed, visit a random page and click the extension icon. The below is the screenshot once you click.
+Clone this repo, and open Google Chrome. Open Extensions under Windows, and Load Unpacked. Once installed, visit a random page and click the extension icon.
